@@ -49,7 +49,7 @@ public class Main {
                 Class.forName(prop.getProperty(it.next()));
             } catch (ClassNotFoundException e) {
                 // e.printStackTrace();
-                System.out.println(e.toString()); 
+                System.out.println(e.toString());
             }
         }
     }
