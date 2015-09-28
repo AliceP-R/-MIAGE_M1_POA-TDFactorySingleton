@@ -13,6 +13,7 @@ public class ProductA extends Products {
     @Override
     public Product createProduct()
     {
+
         return new ProductA();
     }
 
@@ -25,6 +26,6 @@ public class ProductA extends Products {
 
     @Override
     public String toString() {
-        return "ProductA{}";
+        return "Je suis un ProductA";
     }
 }
